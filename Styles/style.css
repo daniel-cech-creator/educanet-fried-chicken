@@ -1,0 +1,86 @@
+p, h1{
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+hr {
+    border: solid;
+    border-width: 2px;
+    border-color:#fa0f0f;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav {
+   display: flex;
+   justify-content: center; 
+   gap: 200px;               
+   background: #fa0f0f;
+   background: linear-gradient(0deg, rgba(250, 15, 15, 1) 0%, rgba(145, 33, 33, 1) 100%);
+   padding: 15px;
+   height: 80px;
+   margin-bottom: 50px;
+}
+
+.nav a {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.15s;
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+.logo{
+    position:absolute;
+    width: 100px;
+    height: 110px;
+    top: 0px;
+    left: 10px;
+    transition: 0.15s;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.nav a:hover{
+    transform: scale(1.2);
+}
+
+.uvod {
+   display: flex;
+   justify-content: center;             
+   gap: 50px;
+   padding-bottom: 20px;
+   
+}
+.uvod img{
+   transition: 0.15s;
+   border-radius: 30px;
+}
+
+.uvod p{
+}
+
+.uvod img:hover{
+   transform: scale(1.05);
+}
+
+.quote{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
