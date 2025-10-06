@@ -1,6 +1,12 @@
-p, h1{
+p, h1, footer{
     font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     font-weight: normal;
+}
+
+footer {
+    margin-left: 10px;
+    margin-top: 8%;
+    
 }
 
 h1 {
@@ -14,6 +20,7 @@ hr {
     border: solid;
     border-width: 2px;
     border-color:#fa0f0f;
+    margin-bottom: 0px;
 }
 
 body {
@@ -29,6 +36,9 @@ body {
    padding: 15px;
    height: 80px;
    margin-bottom: 50px;
+   border-color: black;
+   border-style: solid;
+   border-width: 0px 0px 4px 0px;
 }
 
 .nav a {
@@ -36,12 +46,10 @@ body {
     margin-bottom: auto;
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     transition: 0.15s;
     font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-    font-weight: normal;
 }
-
 .logo{
     position:absolute;
     width: 100px;
@@ -69,9 +77,8 @@ body {
 .uvod img{
    transition: 0.15s;
    border-radius: 30px;
-}
-
-.uvod p{
+   border-style: solid;
+   border-width: 4px
 }
 
 .uvod img:hover{
