@@ -35,9 +35,9 @@ body {
    padding: 15px;
    height: 80px;
    margin-bottom: 50px;
-   border-color: black;
+   /*border-color: black;
    border-style: solid;
-   border-width: 0px 0px 4px 0px;
+   border-width: 0px 0px 4px 0px;*/
 }
 
 .nav a {
@@ -76,8 +76,8 @@ body {
 .uvod img{
    transition: 0.15s;
    border-radius: 30px;
-   border-style: solid;
-   border-width: 4px
+   /*border-style: solid;
+   border-width: 4px*/
 }
 
 .uvod img:hover{
@@ -106,9 +106,9 @@ body {
     height: 400px;
     border-radius: 20px;
     transition: 0.15s;
-    border: solid;
+    /*border: solid;
     border-color: black;
-    border-width: 4px;
+    border-width: 4px;*/
 
 }
 
@@ -137,21 +137,28 @@ body {
     justify-content: center;
     width: 100%;
     gap: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 140px;
 }
 
 .contact{
     width: 400px;
-    height: 600px;
+    height: 400px;
+    transition: 0.15s;
+}
+
+.contact:hover{
+    transform: scale(1.05);
 }
 
 .contact img{
+    border-radius: 20px 20px 0px 0px;
     display: block;
     height: 400px;
     width: 400px;
 }
 
 .contact .frame{
+    border-radius: 0px 0px 20px 20px;
     width: 400px;
     height: 90px;
     background: linear-gradient(0deg, rgba(250, 15, 15, 1) 0%, rgba(145, 33, 33, 1) 100%);
