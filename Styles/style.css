@@ -131,3 +131,32 @@ body {
     font-weight: normal;
     color: white;
 }
+
+.contact-row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.contact{
+    width: 400px;
+    height: 600px;
+}
+
+.contact img{
+    display: block;
+    height: 400px;
+    width: 400px;
+}
+
+.contact .frame{
+    width: 400px;
+    height: 90px;
+    background: linear-gradient(0deg, rgba(250, 15, 15, 1) 0%, rgba(145, 33, 33, 1) 100%);
+    text-align: center;
+    color: white;
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-size: 30px;
+}
