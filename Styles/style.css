@@ -149,7 +149,7 @@ body {
 }
 
 .menu-select:hover{
-    transform: scale(1.05);
+    transform: translateY(-6px);
 }
 
 .menu-select img{
