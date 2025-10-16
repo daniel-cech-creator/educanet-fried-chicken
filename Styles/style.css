@@ -48,6 +48,7 @@ body {
     transition: 0.15s;
     font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
 }
+
 .logo{
     position:absolute;
     width: 100px;
@@ -130,16 +131,16 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
-/*---------------*/
+/*---- MENU SELECT ----*/
 
-.menu-row{
+.menu-select-row{
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 140px;
+    margin-bottom: 70px;
 }
 
-.menu-item{
+.menu-select{
     width: 300px;
     height: 300px;
     transition: 0.15s;
@@ -147,34 +148,111 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.menu-item:hover{
+.menu-select:hover{
     transform: scale(1.05);
 }
 
-.menu-item img{
+.menu-select img{
     border-radius: 20px 20px 0px 0px;
     display: block;
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     transition: 0.15s;
 }
 
-.menu-item img:hover{
+.menu-select img:hover{
     filter: brightness(1.05);
 }
 
-.menu-item .frame{
+.menu-select .frame{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0px 0px 5px 5px;
     width: 300px;
-    height: 50px;
+    height: 40px;
     background: linear-gradient(0deg, rgba(250, 15, 15, 1) 0%, rgba(145, 33, 33, 1) 100%);
     text-align: center;
     color: white;
     font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-    font-size: 30px;
-    padding-top: 20px;
+    font-size: 25px;
+    padding-top: 8px;
 }
+
+
+/*---- MENU ITEMS ----*/
+
+.card-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 16px;
+  width: 400px;
+  gap: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 120px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.card-content {
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  height: 100%;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.card-header p {
+  margin: 6px 0 0 0;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.card-footer span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1c1c1c;
+}
+
 
 .nav a .active{
     color: yellow;
