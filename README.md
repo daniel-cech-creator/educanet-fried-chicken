@@ -5,7 +5,7 @@ Všechny ceny, produkty či zaměstnanci jsou zcela smyšlené a nemají být br
 
 ## Inline code
 
-Odkaz na webovou stránku: `[daniel-cech-creator.github.io/educanet-fried-chicken](https://daniel-cech-creator.github.io/educanet-fried-chicken/)`
+Odkaz na webovou stránku: [daniel-cech-creator.github.io/educanet-fried-chicken](https://daniel-cech-creator.github.io/educanet-fried-chicken/)
 
 <p align=center>
     <img src="/Img/educanet.png" alt="educanet-logo" width="300">
